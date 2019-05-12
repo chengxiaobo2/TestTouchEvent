@@ -1,1 +1,1 @@
-include ':app', ':testtouchevent1'
+include ':app', ':testtouchevent1', ':testtouchevent2'

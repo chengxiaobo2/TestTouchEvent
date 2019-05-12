@@ -36,7 +36,7 @@ class TestTouchEvent1Activity : AppCompatActivity() {
     }
 
     /**
-     * 模拟事件分发-很有意思，递归递归递归
+     * 模拟事件处理-很有意思，递归递归递归
      */
     private fun dispatchTouchEvent(touchTarget: TouchTarget): Boolean {
         val next = touchTarget.next
